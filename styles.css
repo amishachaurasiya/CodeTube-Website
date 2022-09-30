@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Roboto:wght@300&display=swap');
+*
+{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+background-color: white;
+}
+body
+{
+    font-family: 'Roboto',sans-serif;
+
+}
+/* HEader */
+.material-symbols-outlined
+{background-color: beige;
+    color:black;
+}
+.header
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    background-color: beige;
+
+}
+.header_left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: beige;
+}
+.header_left span{
+    font-family: 'Righteous', cursive;
+   margin-left: 0px;
+   padding-left: 0px;
+   font-size: x-large;
+   flex: 1fr;
+   background-color: beige;
+}
+.header_left i{
+    background-color: beige;
+
+}
+
+
+
+.header_search form
+{
+    border: 1px solid #ddd;
+    height: 35px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex: 1fr;
+    
+
+}
+.header_search input{
+width: 500px;
+    padding: 10px;
+    margin: 0;
+    border-radius: 0;
+    border: none;
+    flex: 1fr;
+
+}
+.header_search button 
+{
+    padding:0;
+    margin-right: -7px;
+    margin-top: 0px;
+    margin-bottom: -1.5px;
+    height: 100%;
+    border: none;
+    border-radius: 0;
+    
+
+}
+.header_search button i{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.header_icons span{
+    flex: 1 fr;
+    justify-content: space-between;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.sidebar
+{
+   top: 50px;
+   background-color:beige;
+   bottom: 0; 
+   left: 0;
+   position: fixed;
+   width: 76px;
+   bottom: 0;
+}
+.sidebar:hover
+{
+    background-color: white;
+}
+.sidebar_link
+{
+    
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 0px;
+    background-color: beige;
+
+
+}
+.sidebar_link img{
+    height: 25px;
+    background-color: beige;
+   
+}
+.sidebar_link:hover
+{
+background-color: white;
+}
+.sidebar_link img:hover
+{
+    background-color: white;  
+}
+.sidebar_link div{
+    font-family: Roboto,Ariel;
+    font-size: 10px;
+    background-color: beige;
+}
+.sidebar_link div:hover
+{
+    background-color: white;
+}
+.container  
+{
+    margin-top: 50px;
+    margin-left: 80px;
+}
+.video-content
+{
+ display: flex;
+}
+
+.video-title,.channel,.status
+{
+  display: block;  
+  max-width:560px ;
+}
+.videocard
+{
+    top: 0;
+    margin-bottom: 50px;
+    margin-left: 40px;
+    margin-right: 40px;
+display: inline-block;    
+}
+.xyz
+{
+    background-color: beige;
+}
+.xyz:hover{
+    background-color: white;
+}
+.header_icons:hover
+{
+    background-color: white;
+}
